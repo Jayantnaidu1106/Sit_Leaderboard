@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard - Add Your Details</title>
+    <link rel="stylesheet" href="/styles.css"> <!-- Ensure this path is correct -->
+</head>
+<body>
+    <div class="container">
+        <h1>Enter Your Details</h1>
+        <form action="/" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Example@email.com" >
+            </div>
+            <div class="form-group">
+                <label for="LeetcodeUsername">LeetcodeUsername</label>
+                <input type="text" id="leetcodeusername" required name="leetcodeusername" >
+            </div>
+            <button type="submit">Add User</button>
+        </form>
+        <br>
+        <a href="/leaderboard">View Leaderboard</a>
+    </div>
+</body>
+</html>
